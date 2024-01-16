@@ -9,77 +9,116 @@ const Home = () => {
           Vertically Centered
         </Button.Ripple>
 
-        <Modal isOpen={centeredModal} toggle={() => setCenteredModal(!centeredModal)} className=' modal-dialog-centered modal-xl'>
-          <ModalHeader toggle={() => setCenteredModal(!centeredModal)}>Vertically</ModalHeader>
+        <Modal isOpen={centeredModal} toggle={() => setCenteredModal(!centeredModal)} style={{ maxWidth: '65%', margin: '0 auto' }}>
+          <ModalHeader toggle={() => setCenteredModal(!centeredModal)}>User detail</ModalHeader>
           <ModalBody>
         <div>
       <h2 className="pb-1" style={{ fontSize: '20px', textDecoration: 'underline' }}>Personal Details</h2>
        <Row className="border">
-
-  <Col md='4'>
-  <div className="d-flex flex-column">
+          <Col md='2'>
+             <div className="d-flex flex-column">
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-2 px-2 font-weight-bold fs-4">Full Name</div>
-      <div className="fs-4">Anand Dubey</div>
+      <div className="font-weight-bolder ">Full Name</div>
     </div>
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-2 px-2 font-weight-bold fs-4">Email</div>
-      <div className="fs-4">dubeyanand19d@gmail.com</div>
+      <div className="font-weight-bold ">Email</div>
     </div>
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-2 px-2 font-weight-bold fs-4">Contact Number</div>
-      <div className="fs-4">7379772844</div>
+      <div className="font-weight-bold ">Contact Number</div>
     </div>
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-2 px-2 font-weight-bold fs-4">Date of Birth</div>
-      <div className="fs-4">19/10/1999</div>
+      <div className="font-weight-bold ">Date of Birth</div>
     </div>
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-2 px-2 font-weight-bold fs-4">Date of Join</div>
-      <div className="fs-4">09/01/2024</div>
+      <div className="font-weight-bold ">Date of Join</div>
     </div>
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-5 px-2 font-weight-bold fs-4">Marital Status</div>
-      <div className="fs-4">Single</div>
+      <div className="font-weight-bold ">Gender</div>
     </div>
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-5 px-2 font-weight-bold fs-4">Address</div>
-      <div className="fs-4">Medical Road Gorakhpur, Uttar Pradesh, 273013</div>
+      <div className="font-weight-bold ">Marital Status</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div className="font-weight-bold ">Address</div>
     </div>
   </div>
 </Col>
-<Col md='4'>
-  <div className="d-flex flex-column">
+          <Col md='3'>
+             <div className="d-flex flex-column">
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-2 px-2 font-weight-bold fs-6">Roll</div>
-      <div className="fs-6">POS</div>
+      <div className="font-weight-bolder ">Anand Dubey</div>
     </div>
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-2 px-2 font-weight-bold fs-6">Team</div>
-      <div className="fs-6">Sales Manager</div>
+      <div>dubeyanand19d@gmail.com </div>
     </div>
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-2 px-2 font-weight-bold fs-6">Region</div>
-      <div className="fs-6">North</div>
+      <div>7379772846 </div>
     </div>
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-2 px-2 font-weight-bold fs-6">Branch</div>
-      <div className="fs-6">North</div>
+      <div>19/10/1999 </div>
     </div>
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-2 px-2 font-weight-bold fs-6">Pos Code</div>
-      <div className="fs-6">SIBPL/POS/10009</div>
+      <div>09/10/2024 </div>
     </div>
     <div className="d-flex justify-content-start border-bottom pb-1">
-      <div className="mr-2 px-2 font-weight-bold fs-6">Refer Code</div>
-      <div className="fs-6">EMA/HR/876</div>
+      <div>Male</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div>Single</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div>Medical Road , Gorakhpur , Uttar Pradesh,273013</div>
     </div>
   </div>
 </Col>
-<Col md='4'>
+          <Col md='2'>
+             <div className="d-flex flex-column">
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div className="font-weight-bold ">Roll</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div className="font-weight-bold ">Team</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div className="font-weight-bold ">Region</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div className="font-weight-bold ">Branch</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div className="font-weight-bold ">Pos Code</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div className="font-weight-bold ">Refer Code</div>
+    </div>
+  </div>
+</Col>
+<Col md='2'>
+  <div className="d-flex flex-column">
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div >Sales Manager</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div >POS</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div >North-East</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div >North</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div >SIBPL/POS/10009</div>
+    </div>
+    <div className="d-flex justify-content-start border-bottom pb-1">
+      <div >EMA/HR/876</div>
+    </div>
+  </div>
+</Col>
+<Col md='3'>
     {/* New column for the image */}
     <div  className="d-flex justify-content-center align-items-center">
-      <img src="https://avatars.githubusercontent.com/u/988934?v=4"alt="Profile"style={{ width: '200px', height: '250px', objectFit: 'cover' }}/>
+      <img src="https://avatars.githubusercontent.com/u/988934?v=4"alt="Profile"style={{ width: '180px', height: '230px', objectFit: 'cover' }}/>
     </div>
   </Col>
     </Row>
@@ -141,35 +180,73 @@ const Home = () => {
     <div>
       <h2 className="pb-2" style={{ fontSize: '20px', textDecoration: 'underline' }}>Payment Details</h2>
        <Row className="border">
-      <Col md='6' >
+      <Col md='2' >
         <div className="d-flex flex-column">
 
           <div className="d-flex  justify-content-start border-bottom pb-2 ">
-            <div className="mr-2 px-2 font-weight-bold">Bank Name</div>
-            <div>ICICI Bank</div>
+            <div className=" font-weight-bold">Bank Name</div>
           </div>
           <div className="d-flex  justify-content-start border-bottom pb-2">
-            <div className="mr-2 px-2 font-weight-bold">Branch Name</div>
-            <div>Medical College</div>
+            <div className=" font-weight-bold">Branch Name</div>
           </div>
           <div className="d-flex  justify-content-start border-bottom pb-2">
-            <div className="mr-2 px-2 font-weight-bold">IFSE Code</div>
-            <div>ICIC0000465</div>
+            <div className=" font-weight-bold">IFSE Code</div>
           </div>
 
         </div>
       </Col>
-      <Col md='6'>
+      <Col md='2' >
         <div className="d-flex flex-column">
 
-          <div className="d-flex justify-content-start border-bottom pb-2">
-            <div className="mr-2 px-2 font-weight-bold">Account Holder</div>
+          <div className="d-flex  justify-content-start border-bottom pb-2 ">
+            <div>ICICI Bank</div>
+          </div>
+          <div className="d-flex  justify-content-start border-bottom pb-2">
+            <div >Medical College</div>
+          </div>
+          <div className="d-flex  justify-content-start border-bottom pb-2">
+            <div >ICI0000465</div>
+          </div>
+        </div>
+      </Col>
+      <Col md='2' >
+        <div className="d-flex flex-column">
+
+          <div className="d-flex  justify-content-start border-bottom pb-2 ">
+            <div className=" font-weight-bold">Account Holder</div>
+          </div>
+          <div className="d-flex  justify-content-start border-bottom pb-2">
+            <div className=" font-weight-bold">Account Number</div>
+          </div>
+
+        </div>
+      </Col>
+      <Col md='2' >
+        <div className="d-flex flex-column">
+
+          <div className="d-flex  justify-content-start border-bottom pb-2 ">
             <div>Anand Dubey</div>
           </div>
-          <div className="d-flex justify-content-start border-bottom pb-2">
-            <div className="mr-2 px-2 font-weight-bold">Account Number</div>
-            <div>123456789006</div>
+          <div className="d-flex  justify-content-start border-bottom pb-2">
+            <div >12345678091</div>
           </div>
+        </div>
+      </Col>
+    </Row>
+    </div>
+
+    <div>
+      <h2 className="pb-2" style={{ fontSize: '20px', textDecoration: 'underline' }}>Privilege Details</h2>
+       <Row className="border">
+      <Col md='2' >
+        <div className="d-flex flex-column">
+
+
+        </div>
+      </Col>
+      <Col md='2'>
+        <div className="d-flex flex-column">
+
         </div>
       </Col>
     </Row>
