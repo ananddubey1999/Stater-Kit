@@ -63,9 +63,13 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     }          
     /* Button width style */
+    .btn-primary{
+        box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
+    }
     .btn-small-width {
       width: 100%;
       max-width: 400px;
+      box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.2);
     }  
      
     .image-with-shadow {
