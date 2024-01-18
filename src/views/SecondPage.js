@@ -226,6 +226,125 @@ const SecondPage = () => {
                   </div>
                   {/* ---------------Inner Content End------------- */}
                 </div>
+                <div className="container-content2">
+                  {/* Title and paragraph */}
+                  <div className="d-flex justify-content-start">
+                    <h4 className="font-weight-bolder">Discounts</h4>
+                  </div>
+                  <div className="d-flex justify-content-start">
+                    <div>
+                    With some smart trade offs you can save big on your premium.
+                    </div>
+                  </div>
+
+                  {/* ---------------Inner Content start------------- */}
+                  <div className="container-content1">
+                    <div className="d-flex justify-content-start">
+                      <div className="font-weight-bolder">
+                      Medical Practitioner Discoun
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-start">
+                      <div>
+
+                        Get 5% discount if any of the insured person is a medical practitioner
+                      </div>
+                    </div>
+                    <div className="d-flex flex-row mt-3 ">
+                      <div className="d-flex align-items-center mb-2">
+                        <button
+                          className="btn btn-outline-primary"
+                          style={{
+                            marginRight: "15px",
+                            marginLeft: "25px",
+                            padding: "8px 12px",
+                            fontSize: "16px"
+                          }}
+                        >
+                          You Save Rs 767
+                        </button>
+                      </div>
+
+                      <div className="d-flex align-items-center mb-2">
+                        <button
+                          className="btn btn-outline-primary"
+                          style={{
+                            marginRight: "15px",
+                            marginLeft: "25px",
+                            padding: "8px 12px",
+                            fontSize: "16px"
+                          }}
+                        >
+                          Apply
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  {/* ---------------Inner Content End------------- */}
+                </div>
+                <div className="container-content2">
+                  {/* Title and paragraph */}
+                  <div className="d-flex justify-content-start">
+                    <h4 className="font-weight-bolder">Recommended Add-Ons</h4>
+                  </div>
+                  <div className="d-flex justify-content-start">
+                    <div>
+                    Add-ons are a smart way to enhance your cover at a fraction of the cost.
+                    </div>
+                  </div>
+
+                  {/* ---------------Inner Content start------------- */}
+                  <div className="container-content1">
+                    {/* <div className="d-flex justify-content-start">
+                      <div className="font-weight-bolder">
+                      Medical Practitioner Discoun
+                      </div>
+                    </div>
+                    <div className="d-flex justify-content-start">
+                      <div>
+
+                        Get 5% discount if any of the insured person is a medical practitioner
+                      </div>
+                    </div>
+                    <div className="d-flex flex-row mt-3 ">
+                      <div className="d-flex align-items-center mb-2">
+                        <button
+                          className="btn btn-outline-primary"
+                          style={{
+                            marginRight: "15px",
+                            marginLeft: "25px",
+                            padding: "8px 12px",
+                            fontSize: "16px"
+                          }}
+                        >
+                          You Save Rs 767
+                        </button>
+                      </div>
+
+                      <div className="d-flex align-items-center mb-2">
+                        <button
+                          className="btn btn-outline-primary"
+                          style={{
+                            marginRight: "15px",
+                            marginLeft: "25px",
+                            padding: "8px 12px",
+                            fontSize: "16px"
+                          }}
+                        >
+                          Apply
+                        </button>
+                      </div>
+                          <div className="d-flex justify-content-end">
+                             <img
+                             src="https://www.kindpng.com/picc/m/459-4593635_opd-logo-opd-hd-png-download.png"
+                             alt="Image"
+                             style={{ width: "100px", height: "100px" }}
+                               />
+                      </div>
+                    </div> */}
+                  </div>
+                                                    {/* ---------------Inner Content End------------- */}
+                </div>
               </Col>
             </Row>
           </div>
@@ -278,14 +397,15 @@ const SecondPage = () => {
                       <h3>Select Add-ons</h3>
                     </div>
                   </Col>
-                  <Col md="12">
+                </Row>
+                <Row>
+                  <Col md="8">
                     <div className="d-flex justify-content-start align-items-center">
-                      <Form.Control
-                        type="text"
-                        placeholder="No add-ons Selected"
-                        className="w-75"
-                      />
+                      <p>Critical Illness</p>
                     </div>
+                  </Col>
+                  <Col md="4">
+                    <p>Rs 0</p>
                   </Col>
                 </Row>
                 <Row>
@@ -298,7 +418,7 @@ const SecondPage = () => {
                     <div className="d-flex justify-content-start align-items-center">
                       <p>
                         <input type="checkbox" />
-                        Checkbox Paragraph
+                        I want to port my existing policy
                       </p>
                     </div>
                   </Col>
